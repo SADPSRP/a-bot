@@ -1,1 +1,1 @@
-worker: npm install fortnite
+worker: node index.js
