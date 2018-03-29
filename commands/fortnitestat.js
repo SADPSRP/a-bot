@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const snekfetch = require("snekfetch");
 const apikey = require("../keys.json");
+const Fornite = require("fortnite");
 const ft = new Fortnite(apikey.fortnite);
 
 module.exports.run = async (bot, message, args) => {
